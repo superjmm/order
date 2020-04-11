@@ -32,7 +32,7 @@ rm -f $TOMCAT_HOME/webapps/ROOT.war
 rm -f $TOMCAT_HOME/webapps/order.war
 
 # 复制新的工程
-cp $PROJ_PATH/order/target/order.war TOMCAT_HOME/webapps/
+cp $PROJ_PATH/order/target/order.war $TOMCAT_HOME/webapps/
 
 cd $TOMCAT_HOME/webapps/
 mv order.war ROOT.war
